@@ -15,7 +15,7 @@ transactions_file = "transactions.xlsx"  # File to store all transactions
 class BillingApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Billing System - SS Equipments")
+        self.root.title("Billing System - company name")
         self.root.attributes('-fullscreen', True)
 
         self.items = []
@@ -175,8 +175,8 @@ class BillingApp:
 
         tk.Label(header_frame, text="SS EQUIPMENTS", font=("Arial", 20, "bold"), bg="#1e3d59", fg="white").pack()
         tk.Label(header_frame, text="Deals in Crane, Hose Pipes & Fittings", font=("Arial", 12), bg="#1e3d59", fg="white").pack()
-        tk.Label(header_frame, text="GSTIN: 09AWAPS6852Q1ZL | +91-9752499273", font=("Arial", 10), bg="#1e3d59", fg="white").pack()
-        tk.Label(header_frame, text="Address: House No. 524, Sector 2C, Vasundhara, Ghaziabad", font=("Arial", 10), bg="#1e3d59", fg="white").pack()
+        tk.Label(header_frame, text="GSTIN: gst number | +91-975249xxx", font=("Arial", 10), bg="#1e3d59", fg="white").pack()
+        tk.Label(header_frame, text="Address: abcd", font=("Arial", 10), bg="#1e3d59", fg="white").pack()
 
         customer_frame = tk.Frame(self.root, pady=5)
         customer_frame.pack()
@@ -326,8 +326,8 @@ class BillingApp:
         .customer-info {{margin-bottom: 15px;}}
         </style></head><body>
         <div class="header">
-            <h2>SS EQUIPMENTS</h2>
-            <p>Deals in Crane, Hose Pipes & Fittings<br>GSTIN: 09AWAPS6852Q1ZL | +91-9752499273<br>Address: House No. 524, Sector 2C, Vasundhara, Ghaziabad ,201012</p>
+            <h2>company name</h2>
+            <p>Deals in Crane, Hose Pipes & Fittings<br>GSTIN: gst number | +91-9752499xxx<br>Address: abcd</p>
         </div>
         <hr>
         <div class="customer-info">
