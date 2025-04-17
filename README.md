@@ -1,4 +1,4 @@
-# Billing System - SS Equipments
+# Billing System - 
 
 This is a Python-based billing system application for managing invoices, transactions, and customer details. The application is built using the `tkinter` library for the GUI and supports features like saving bills, exporting data to Excel, and searching for past invoices.
 
